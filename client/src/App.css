@@ -1,0 +1,74 @@
+.container{
+  width: 500px;
+  background-color: rgb(251, 216, 170);
+  margin: 30px auto;
+  border-radius: 5px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  border: 1px solid #cacccd;
+}
+.container h3{
+  text-align: center;
+  background-color: rgb(255, 125, 26);
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  font-size: 28px;
+  margin: 0;
+}
+.task-container{
+  height: 500px;
+  padding: 10px;
+}
+.task{
+  position: relative;
+  border-radius: 5px;
+  background-color: rgb(250, 190, 144);
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 14px;
+  margin: 15px 0;
+}
+.task-title{
+  font-size: 20px;
+}
+.task-priority{
+  position: absolute;
+  top: 5px;
+  right: 110px;
+  background-color: rgb(249, 116, 116);
+  width: 70px;
+  text-align: center;
+  border-radius: 10px;
+}
+.task-remove{
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: rgb(255, 125, 26);
+}
+.input-con{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-text{
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid rgb(52, 52, 52);
+}
+.input-priority{
+  width: 30%;
+  margin: 0 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(52, 52, 52);
+}
+.add-btn{
+  padding: 5px 22px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: rgb(255, 125, 26);
+}
