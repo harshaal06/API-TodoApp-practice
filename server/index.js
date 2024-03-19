@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 
 const app = express();
+app.use(express.json());
+app.use(cors());
 
 // Practice of quary parameters in API
 // http://localhost:5000/order/food?menu=Samosa&quantity=5&price=10
@@ -34,9 +36,6 @@ app.get("/food/:type",(req, res)=>{
         })
     }
 })
-
-app.use(express.json());
-app.use(cors());
 
 const tasks = [];
 
